@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: orange;
+}
+
+
+#hero{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    padding:0cqi;
+    background-color:#1e1e1e;
+    color:orange;
+    
+
+}
+#hero h1{
+    font-size: medium;
+    color: color:#f39c12;
+}
+
+.hero-pic{
+    border-radius: 50%;
+    width: 175px;
+    border:black;
+    margin-bottom:20px;
+    margin-top: 20px;
+    border: orange solid 5px 
+    ;
+}
+.nav-buttons button {
+    display: flexbox;
+    background-color:black;
+    color: orange;
+    border-radius:25%;
+    
+}
+#about{
+    text-align: center;
+    background-color: #1e1e1e;
+    
+    padding-top:calc();
+    box-sizing: content-box;
+    box-shadow: #fafafa;
+    display: flexbox;
+}
+#education{
+    background-color:#1e1e1e;
+    text-align: center;
+}
+.education-item{
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    box-shadow:#ffffff;
+    max-width: 800px;
+    margin: 10px auto;
+    border-radius: 8px;
+    color: #1e1e1e;
+}
+.education-item h3 {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.education-item p {
+    font-size: 1.1rem;
+    color: orange;
+}
+#skills{
+    text-align: center;
+    padding: 50px 20px;
+    background-color:#1e1e1e  ;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.skills-category{
+    display: flex;
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 300px;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    font-size: medium;
+    
+} 
+#contact a {
+    color: orange;
+    text-decoration: none;
+    background-color: #1e1e1e;
+}
+
+#contact a:hover {
+    color: orange;
+    background-color: #1e1e1e;
+}
+
